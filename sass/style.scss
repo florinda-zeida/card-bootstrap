@@ -1,0 +1,23 @@
+@import "partials/custom";
+@import "../bootstarp-scss/functions";
+@import "../bootstarp-scss/variables";
+@import "../bootstarp-scss/mixins";
+@import "../bootstarp-scss/root";
+@import "../bootstarp-scss/reboot";
+@import "../bootstarp-scss/type";
+@import "../bootstarp-scss/grid";
+@import "../bootstarp-scss/transitions";
+@import "../bootstarp-scss/dropdown";
+@import "../bootstarp-scss/nav";
+@import "../bootstarp-scss/navbar";
+@import "../bootstarp-scss/card";
+@import "../bootstarp-scss/media";
+@import "../bootstarp-scss/utilities";
+@import "../bootstarp-scss/print";
+
+/*-----*/
+
+@import "partials/layout";
+@import "partials/typography";
+@import "partials/nav";
+@import "partials/card";

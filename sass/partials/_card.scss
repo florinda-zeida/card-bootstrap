@@ -1,0 +1,34 @@
+.product__card {
+    background-color: #F4F3EE;
+    height: 230px;
+    box-shadow: $box-shadow;
+    padding: 0px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.row :nth-child(3) {
+    border: 3px solid #c32c72;
+}
+
+.row :nth-child(8) {
+    border: 3px solid #c32c72;
+}
+
+.row :nth-child(6) {
+    background-color: #c32c72;
+}
+
+@media (min-width: 768px) {
+    .product__card {
+        margin: 0px auto;
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-lg-3 {
+        flex: 0 0 23%;
+        max-width: 23%;
+    }
+}
